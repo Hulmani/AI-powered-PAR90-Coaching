@@ -32,23 +32,23 @@ An **AI-powered interactive training module** designed to help branch managers l
 ```bash
 git clone <repo-url>
 cd par90-coaching-trainer
-
+```
 
 2.**Install dependencies**
 ```bash
  pip install -r requirements.txt
-
+```
 3. **Set Groq API key**
 ```bash 
 export XAI_API_KEY="your_groq_api_key_here"  # Linux/Mac
 # OR for Windows PowerShell
 setx XAI_API_KEY "your_groq_api_key_here"
-
+```
 
 3. **Run the app**
 ```bash 
 streamlit run app.py
-
+```
 🧩 Usage
 
 Learn Tab
