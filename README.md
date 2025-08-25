@@ -51,49 +51,34 @@ streamlit run app.py
 ```
 🧩 Usage
 
-Learn Tab
+- **Learn Tab**
+  - Read about PAR90 and its impact.
+  - Complete a quick check to reinforce learning.
 
-Read about PAR90 and its impact.
-
-Complete a quick check to reinforce learning.
-
-Coach Tab
-
-Chat with the AI CSR.
-
-Receive real-time feedback on your coaching messages.
-
-Chat is automatically disabled after reaching the turn limit.
-
-Action Plan Tab
-
-Click Generate Action Plan to create a SMART weekly plan.
-
-Download the plan as Markdown for your branch.
+- **Coach Tab**
+  - Chat with the AI CSR.
+  - Receive real-time feedback on your coaching messages.
+    
+- **Action Plan Tab**
+  - Click Generate Action Plan to create a SMART weekly plan.
+  - Download the plan as Markdown for your branch.
 
 ⚠️ Notes
 
-Compatible Groq models:
+- Compatible Groq models:
+  - "llama-3.1-8b-instant"
+  - "llama-3.3-70b-versatile"
+  - "openai/gpt-oss-120b"
 
-"llama-3.1-8b-instant"
-
-"llama-3.3-70b-versatile"
-
-"openai/gpt-oss-120b"
-
-Groq Base URL: https://api.groq.com/openai/v1
-
-Streamlit: Use st.rerun() instead of st.experimental_rerun.
-
-Message content from LLM: use msg.content, not msg["content"].
+- **Groq Base URL:** https://api.groq.com/openai/v1
 
 📌 Tips
 
-Ensure XAI_API_KEY is set before running.
+- Ensure XAI_API_KEY is set before running.
 
-Adjust turn_limit in the Coach tab slider to control session length.
+- Adjust turn_limit in the Coach tab slider to control session length.
 
-Use the Reset Conversation button to restart training.
+- Use the Reset Conversation button to restart training.
 
 📝 License
 
