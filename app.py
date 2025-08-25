@@ -276,7 +276,7 @@ with tab_coach:
                     summary_text = "Parsing error from server response. Please check the input format."
 
                 if summary_text:
-                    st.markdown(f"**Summary Now:** {summary_text}")
+                    st.markdown(f"**Summary:** {summary_text}")
                 if tips and isinstance(tips, list):
                     st.markdown("**Tips:**")
                     for tip in tips:
